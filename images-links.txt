@@ -1,0 +1,10 @@
+IPL-Logo: "https://s3.amazonaws.com/asi-workshop/ipl.jpg"
+
+high-low-game : "https://s3.amazonaws.com/asi-workshop/game.jpg"
+
+Mumbai Indians : "https://s3.amazonaws.com/asi-workshop/mi.png"
+
+SRH : "https://s3.amazonaws.com/asi-workshop/srh.jpeg"
+
+
+
