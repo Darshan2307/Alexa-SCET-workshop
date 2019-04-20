@@ -1,0 +1,148 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "ipl facts slot",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HelloWorldIntent",
+                    "slots": [],
+                    "samples": [
+                        "hello",
+                        "how are you",
+                        "say hi world",
+                        "say hi",
+                        "hi",
+                        "say hello world",
+                        "say hello"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "FavTeamIntent",
+                    "slots": [
+                        {
+                            "name": "team",
+                            "type": "TeamSlotType"
+                        }
+                    ],
+                    "samples": [
+                        "{team} is my favourite",
+                        "{team} is the best",
+                        "my favourite team is {team}"
+                    ]
+                },
+                {
+                    "name": "GetFavIplFactIntent",
+                    "slots": [],
+                    "samples": [
+                        "give me a fact of my team",
+                        "tell a fact about favourite team"
+                    ]
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetScheduleIntent",
+                    "slots": [
+                        {
+                            "name": "MatchDate",
+                            "type": "AMAZON.DATE"
+                        }
+                    ],
+                    "samples": [
+                        "on {MatchDate} which teams are playing",
+                        "what match is it on {MatchDate}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "TeamSlotType",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "KXIP",
+                                "synonyms": [
+                                    "kings 11 punjab"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "RR",
+                                "synonyms": [
+                                    "rajasthan royals"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CSK",
+                                "synonyms": [
+                                    "chennai super kings"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "SRH",
+                                "synonyms": [
+                                    "sunrisers hyderabad"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "DC",
+                                "synonyms": [
+                                    "delhi capitals"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "KKR",
+                                "synonyms": [
+                                    "kolkata knight riders"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "MI",
+                                "synonyms": [
+                                    "mumbai indians"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "RCB",
+                                "synonyms": [
+                                    "royal challengers bangalore"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
